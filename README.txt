@@ -2,6 +2,8 @@
 // Epiphany47 - SS5Indexer [Samba Server Indexer Code (Java)]
 ///////////////////////////////////////////////////////////////////////////////
 
+Some old school code from 2009 that I'm posting to Github for archival purposes
+
 Purpose:
 SS5Indexer finds Pomona ResNet hosts with active Samba shares and 
 indexes those shares into a MySQL database.
