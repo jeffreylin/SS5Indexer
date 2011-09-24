@@ -2,7 +2,19 @@
 // Epiphany47 - SS5Indexer [Samba Server Indexer Code (Java)]
 ///////////////////////////////////////////////////////////////////////////////
 
-Some old school code from 2009 that I'm posting to Github for archival purposes
+Speed-optimized CIFS/SMB share indexer
+When last tested:
+ - Indexes up to 2.5k files/sec
+ - Responsive with >700k file entries
+ - Supported >1400 active users
+Features:
+ - Multi-threading (hacked together a thread-pool before I knew what a thread-pool was... x.x)
+ - Battle tested against real-world networks (performant even with slow wireless hosts, etc...)
+
+Some old school code from 2009 that I'm posting to Github for archival purposes.
+
+TODO:
+Post custom PHPBB Active Directory auth module
 
 Purpose:
 SS5Indexer finds Pomona ResNet hosts with active Samba shares and 
